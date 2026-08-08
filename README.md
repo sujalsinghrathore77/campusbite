@@ -12,13 +12,14 @@ Digitizing campus dining with **online ordering, digital tokens, QR payments, an
 [🚀 Live Demo](https://campusbite-peach.vercel.app/) •
 [💻 GitHub Repository](https://github.com/sujalsinghrathore77/campusbite)
 
-## 🚀 Demo Access
 
-### Student Demo
+### 🔑 Demo Login
 
-Email: student@acharya.ac.in
+| Email | Password |
+|--------|----------|
+| **demo@acharya.ac.in* | *demo@2026* |
 
-Password: ********
+> *Note:* Use these demo credentials to explore the application
 </div>
 
 ---
