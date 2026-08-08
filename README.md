@@ -89,7 +89,7 @@ The platform also provides dedicated dashboards for canteen staff and administra
 
 The landing page introduces CampusBite and allows users to access the food ordering platform.
 
-![Landing Page](screenshots/1-landing-page.png)
+![Landing Page](screenshots/1-landing-page.jpeg)
 
 ---
 
@@ -97,7 +97,7 @@ The landing page introduces CampusBite and allows users to access the food order
 
 Students securely register and log in using their official college email address.
 
-![Login](screenshots/2-login.png)
+![Login](screenshots/2-login.jpeg)
 
 ---
 
@@ -105,7 +105,7 @@ Students securely register and log in using their official college email address
 
 Browse food items from multiple canteens, search meals, filter categories, and add items to the cart.
 
-![Student Menu](screenshots/3-student-menu.png)
+![Student Menu](screenshots/3-student-menu.jpeg)
 
 ---
 
@@ -113,7 +113,7 @@ Browse food items from multiple canteens, search meals, filter categories, and a
 
 Review selected items, update quantities, and verify the order before checkout.
 
-![Cart](screenshots/4-cart.png)
+![Cart](screenshots/4-cart.jpeg)
 
 ---
 
@@ -121,7 +121,7 @@ Review selected items, update quantities, and verify the order before checkout.
 
 Students can pay online using a dynamic UPI QR code or choose to pay at the counter.
 
-![Payment](screenshots/5-payment.png)
+![Payment](screenshots/5-payment.jpeg)
 
 ---
 
@@ -129,7 +129,7 @@ Students can pay online using a dynamic UPI QR code or choose to pay at the coun
 
 Track every order from **Pending → Preparing → Completed** using a digital token.
 
-![Order Tracking](screenshots/6-order-tracking.png)
+![Order Tracking](screenshots/6-order-tracking.jpeg)
 
 ---
 
@@ -137,7 +137,7 @@ Track every order from **Pending → Preparing → Completed** using a digital t
 
 Canteen staff can manage orders through an easy-to-use dashboard with live status updates.
 
-![Canteen Dashboard](screenshots/7-canteen-dashboard.png)
+![Canteen Dashboard](screenshots/7-canteen-dashboard.jpeg)
 
 ---
 
@@ -145,7 +145,7 @@ Canteen staff can manage orders through an easy-to-use dashboard with live statu
 
 The admin dashboard provides centralized control over canteens, menus, payments, and analytics.
 
-![Admin Dashboard](screenshots/8-admin-dashboard.png)
+![Admin Dashboard](screenshots/8-admin-dashboard.jpeg)
 
 ---
 
