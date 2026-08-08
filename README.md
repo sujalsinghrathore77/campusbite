@@ -485,7 +485,7 @@ Acharya Institute of Technology
 
 - GitHub: https://github.com/sujalsinghrathore77
 - X (Twitter): https://x.com/SujalSRathore
-- LinkedIn: *(Add your LinkedIn URL here)*
+- LinkedIn: https://www.linkedin.com/in/sujal-singh-rathore-432b4b30b?utm_source=share_via&utm_content=profile&utm_medium=member_android
 
 ---
 
