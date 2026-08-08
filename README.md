@@ -1,136 +1,512 @@
-# CampusBite - College Canteen Token System
+<div align="center">
 
-A digital token system for college canteens to eliminate physical queues and streamline order management.
+<img src="assets/logo.png" alt="CampusBite Logo" width="180"/>
 
-## Features
+# 🍽️ CampusBite
 
-- **Student Ordering**: Browse menu, place orders, receive digital tokens
-- **QR Payment**: Optional UPI payment with priority queue
-- **Canteen Dashboard**: Manage orders with simple status updates
-- **Admin Panel**: Manage canteens, menu items, and QR payments
-- **Real-time Updates**: SSE notifications for order status
+### Smart College Canteen Token System
 
-## Tech Stack
+Digitizing campus dining with **online ordering, digital tokens, QR payments, and real-time order tracking**.
 
-- **Frontend**: React 18, Tailwind CSS, Shadcn/UI
-- **Backend**: FastAPI (Python), MongoDB
-- **Authentication**: JWT tokens
-- **Payments**: UPI integration with QR codes
+[🌐 Landing Page](https://campusbiteait.netlify.app) •
+[🚀 Live Demo](https://campusbite-peach.vercel.app/) •
+[💻 GitHub Repository](https://github.com/sujalsinghrathore77/campusbite)
 
-## Local Development
+## 🚀 Demo Access
 
-### Prerequisites
+### Student Demo
+
+Email: student@acharya.ac.in
+
+Password: ********
+</div>
+
+---
+
+# 📖 Overview
+
+CampusBite is a modern **College Canteen Management System** designed to eliminate long queues and simplify food ordering inside college campuses.
+
+Students can browse menus, place orders, pay online or at the counter, receive a digital token, and track their order in real time.
+
+The platform also provides dedicated dashboards for canteen staff and administrators to efficiently manage menus, payments, and incoming orders.
+
+---
+
+# ✨ Features
+
+## 👨‍🎓 Student
+
+- Secure college email authentication
+- Browse multiple canteens
+- Search & filter menu items
+- Add items to cart
+- Online UPI QR or counter payment
+- Digital token generation
+- Real-time order tracking
+- Responsive mobile interface
+
+---
+
+## 👨‍🍳 Canteen Dashboard
+
+- Receive incoming orders
+- Update order status
+- Manage menu availability
+- View daily statistics
+- Complete or cancel orders
+
+---
+
+## 👨‍💼 Admin Dashboard
+
+- Manage canteens
+- Manage menu items
+- Upload & manage QR payments
+- Revenue overview
+- Category management
+- Staff management
+
+---
+
+# 🛠 Tech Stack
+
+| Category | Technology |
+|-----------|------------|
+| Frontend | React 18, Tailwind CSS, shadcn/ui |
+| Backend | FastAPI (Python) |
+| Database | MongoDB |
+| Authentication | JWT + Supabase Auth |
+| Payments | UPI QR Integration |
+| Deployment | Vercel, Railway, Netlify |
+
+---
+
+# 📱 Application Preview
+
+## 🏠 Landing Page
+
+The landing page introduces CampusBite and allows users to access the food ordering platform.
+
+![Landing Page](screenshots/1-landing-page.png)
+
+---
+
+## 🔐 Login / Register
+
+Students securely register and log in using their official college email address.
+
+![Login](screenshots/2-login.png)
+
+---
+
+## 🍽️ Student Menu
+
+Browse food items from multiple canteens, search meals, filter categories, and add items to the cart.
+
+![Student Menu](screenshots/3-student-menu.png)
+
+---
+
+## 🛒 Cart & Checkout
+
+Review selected items, update quantities, and verify the order before checkout.
+
+![Cart](screenshots/4-cart.png)
+
+---
+
+## 💳 QR Payment
+
+Students can pay online using a dynamic UPI QR code or choose to pay at the counter.
+
+![Payment](screenshots/5-payment.png)
+
+---
+
+## 🎟 Order Tracking
+
+Track every order from **Pending → Preparing → Completed** using a digital token.
+
+![Order Tracking](screenshots/6-order-tracking.png)
+
+---
+
+## 👨‍🍳 Canteen Dashboard
+
+Canteen staff can manage orders through an easy-to-use dashboard with live status updates.
+
+![Canteen Dashboard](screenshots/7-canteen-dashboard.png)
+
+---
+
+## 👨‍💼 Admin Dashboard
+
+The admin dashboard provides centralized control over canteens, menus, payments, and analytics.
+
+![Admin Dashboard](screenshots/8-admin-dashboard.png)
+
+---
+
+# 🔄 Order Flow
+
+```text
+Student Login
+      │
+      ▼
+Browse Menu
+      │
+      ▼
+Add to Cart
+      │
+      ▼
+Checkout
+      │
+      ▼
+UPI / Counter Payment
+      │
+      ▼
+Digital Token Generated
+      │
+      ▼
+Kitchen Receives Order
+      │
+      ▼
+Preparing
+      │
+      ▼
+Completed
+      │
+      ▼
+Collect Food
+```
+
+---# 🚀 Local Development
+
+## Prerequisites
+
+Make sure you have the following installed:
+
 - Node.js 18+
 - Python 3.9+
 - MongoDB
+- Git
 
-### Frontend Setup
+---
+
+## Clone Repository
+
+```bash
+git clone https://github.com/sujalsinghrathore77/campusbite.git
+cd campusbite
+```
+
+---
+
+## Frontend Setup
+
 ```bash
 cd frontend
 npm install
 npm start
 ```
 
-### Backend Setup
+The frontend will be available at:
+
+```
+http://localhost:3000
+```
+
+---
+
+## Backend Setup
+
 ```bash
 cd backend
+
 pip install -r requirements.txt
+
 uvicorn server:app --reload --port 8001
 ```
 
-## Deployment
+The backend API will run at:
 
-### Frontend (Vercel)
-1. Push code to GitHub
-2. Import repository in Vercel
-3. Configure:
-   - Build Command: `npm run build`
-   - Output Directory: `build`
-   - Install Command: `npm install`
-4. Add environment variable:
-   - `REACT_APP_BACKEND_URL`: Your backend API URL
-
-### Backend
-Deploy on any platform supporting Python/FastAPI:
-- Railway
-- Render
-- AWS/Google Cloud
-
-Set environment variables:
-- `MONGO_URL`: MongoDB connection string
-- `DB_NAME`: Database name
-- `JWT_SECRET`: Secret key for JWT
-- `CORS_ORIGINS`: Frontend URL
-
-## Environment Variables
-
-### Frontend (`frontend/.env`)
 ```
+http://localhost:8001
+```
+
+---
+
+# ☁️ Deployment
+
+CampusBite is deployed using the following services:
+
+| Component | Platform |
+|-----------|----------|
+| Frontend | Vercel |
+| Backend | Railway |
+| Landing Page | Netlify |
+| Database | MongoDB |
+
+---
+
+## Frontend Deployment (Vercel)
+
+1. Push your repository to GitHub.
+2. Import the repository into Vercel.
+3. Configure:
+
+```
+Build Command:
+npm run build
+
+Output Directory:
+build
+
+Install Command:
+npm install
+```
+
+4. Add the required environment variable:
+
+```
+REACT_APP_BACKEND_URL
+```
+
+---
+
+## Backend Deployment
+
+Deploy the FastAPI backend to any Python-supported hosting platform.
+
+Recommended platforms:
+
+- Railway ✅
+- Render
+- Fly.io
+- AWS
+- Google Cloud
+
+Required Environment Variables:
+
+```
+MONGO_URL
+DB_NAME
+JWT_SECRET
+CORS_ORIGINS
+```
+
+---
+
+# 🔐 Environment Variables
+
+## Frontend (`frontend/.env`)
+
+```env
 REACT_APP_BACKEND_URL=https://your-backend-url.com
+
 REACT_APP_SUPABASE_URL=https://your-project.supabase.co
+
 REACT_APP_SUPABASE_ANON_KEY=your-supabase-anon-key
 ```
 
-### Backend (`backend/.env`)
-```
+---
+
+## Backend (`backend/.env`)
+
+```env
 MONGO_URL=mongodb://localhost:27017
+
 DB_NAME=campusbite
+
 JWT_SECRET=your-secret-key
+
 CORS_ORIGINS=https://your-frontend-url.com
+
 ADMIN_EMAIL=admin@example.com
+
 ADMIN_PASSWORD=your-strong-admin-password
 
-# Supabase Auth (college-restricted students)
+# Supabase
+
 SUPABASE_URL=https://your-project.supabase.co
-SUPABASE_SERVICE_ROLE_KEY=your-supabase-service-role-key
-SUPABASE_JWT_SECRET=your-supabase-jwt-secret
+
+SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
+
+SUPABASE_JWT_SECRET=your-jwt-secret
+
 ALLOWED_EMAIL_DOMAIN=acharya.ac.in
+
 ALLOW_LEGACY_STUDENT_LOGIN=false
 ```
 
-## Project Structure
+---
+
+# 📂 Project Structure
 
 ```
-/
-├── frontend/          # React application
-│   ├── src/
-│   │   ├── components/   # Reusable components
-│   │   ├── contexts/     # React contexts
-│   │   ├── pages/        # Page components
-│   │   └── lib/          # Utilities
-│   ├── public/
+CampusBite
+│
+├── frontend
+│   ├── public
+│   ├── src
+│   │   ├── components
+│   │   ├── contexts
+│   │   ├── pages
+│   │   ├── hooks
+│   │   ├── lib
+│   │   └── assets
+│   │
 │   └── package.json
-├── backend/           # FastAPI application
-│   ├── server.py      # Main application
-│   └── requirements.txt
-└── vercel.json        # Vercel deployment config
+│
+├── backend
+│   ├── server.py
+│   ├── requirements.txt
+│   └── routes
+│
+├── assets
+│   └── logo.png
+│
+├── screenshots
+│   ├── 1-landing-page.png
+│   ├── 2-login.png
+│   ├── 3-student-menu.png
+│   ├── 4-cart.png
+│   ├── 5-payment.png
+│   ├── 6-order-tracking.png
+│   ├── 7-canteen-dashboard.png
+│   └── 8-admin-dashboard.png
+│
+├── README.md
+└── vercel.json
 ```
 
-## Build for Production
+---
+
+# 🏗️ Build for Production
+
+## Frontend
 
 ```bash
 cd frontend
+
 npm run build
 ```
 
-Output: `frontend/build/`
+Production build output:
 
-## Supabase Auth Setup
+```
+frontend/build/
+```
 
-See `SUPABASE_SETUP.md` for complete setup (SQL, auth settings, backend env, and Vercel env).
+---
 
-## Contributing
+## Backend
+
+Run the FastAPI application using:
+
+```bash
+uvicorn server:app --host 0.0.0.0 --port 8001
+```
+
+For production deployments, consider using:
+
+- Gunicorn + Uvicorn Workers
+- Railway
+- Docker
+- Nginx (Reverse Proxy)# 🔑 Supabase Authentication
+
+CampusBite uses **Supabase Authentication** to securely manage student accounts.
+
+Only users with an authorized college email domain can register and access the platform.
+
+Example:
+
+```
+student@acharya.ac.in
+```
+
+For the complete authentication setup, database schema, SQL scripts, and environment configuration, refer to:
+
+```
+SUPABASE_SETUP.md
+```
+
+---
+
+# 🤝 Contributing
+
+Contributions are always welcome!
+
+If you'd like to improve CampusBite, follow these steps:
 
 1. Fork the repository
-2. Create feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing-feature`)
-5. Open Pull Request
+2. Create a new feature branch
 
-## License
+```bash
+git checkout -b feature/your-feature
+```
 
-MIT License
+3. Commit your changes
 
-## Support
+```bash
+git commit -m "Add new feature"
+```
 
-For issues or questions, please open an issue on GitHub.
+4. Push your branch
+
+```bash
+git push origin feature/your-feature
+```
+
+5. Open a Pull Request
+
+Please make sure your code follows the existing project structure and coding style.
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+Feel free to use, modify, and distribute it under the terms of the license.
+
+---
+
+# 👨‍💻 Author
+
+## Sujal Singh Rathore
+
+Information Science Engineering Student
+
+Acharya Institute of Technology
+
+### Connect with me
+
+- GitHub: https://github.com/sujalsinghrathore77
+- X (Twitter): https://x.com/SujalSRathore
+- LinkedIn: *(Add your LinkedIn URL here)*
+
+---
+
+# 🌟 Support
+
+If you found this project useful,
+
+⭐ Star the repository
+
+🍴 Fork it
+
+🛠️ Contribute
+
+💬 Share your feedback
+
+Every contribution and suggestion helps make CampusBite better.
+
+---
+
+<div align="center">
+
+Made with ❤️ by **Sujal Singh Rathore**
+
+</div>
