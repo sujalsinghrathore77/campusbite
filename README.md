@@ -83,71 +83,53 @@ The platform also provides dedicated dashboards for canteen staff and administra
 
 ---
 
-# 📱 Application Preview
+## 📱 Application Preview
 
-## 🏠 Landing Page
+<table>
+<tr>
+<td align="center">
+<b>🏠 Landing Page</b><br>
+<img src="screenshots/1-landing-page.jpeg" width="400">
+</td>
+<td align="center">
+<b>🔐 Login / Register</b><br>
+<img src="screenshots/2-login.jpeg" width="400">
+</td>
+</tr>
 
-The landing page introduces CampusBite and allows users to access the food ordering platform.
+<tr>
+<td align="center">
+<b>🍽️ Student Menu</b><br>
+<img src="screenshots/3-student-menu.jpeg" width="400">
+</td>
+<td align="center">
+<b>🛒 Cart & Checkout</b><br>
+<img src="screenshots/4-cart.jpeg" width="400">
+</td>
+</tr>
 
-![Landing Page](screenshots/1-landing-page.jpeg)
+<tr>
+<td align="center">
+<b>💳 Payment</b><br>
+<img src="screenshots/5-payment.jpeg" width="400">
+</td>
+<td align="center">
+<b>🎟️ Order Tracking</b><br>
+<img src="screenshots/6-order-tracking.jpeg" width="400">
+</td>
+</tr>
 
----
-
-## 🔐 Login / Register
-
-Students securely register and log in using their official college email address.
-
-![Login](screenshots/2-login.jpeg)
-
----
-
-## 🍽️ Student Menu
-
-Browse food items from multiple canteens, search meals, filter categories, and add items to the cart.
-
-![Student Menu](screenshots/3-student-menu.jpeg)
-
----
-
-## 🛒 Cart & Checkout
-
-Review selected items, update quantities, and verify the order before checkout.
-
-![Cart](screenshots/4-cart.jpeg)
-
----
-
-## 💳 QR Payment
-
-Students can pay online using a dynamic UPI QR code or choose to pay at the counter.
-
-![Payment](screenshots/5-payment.jpeg)
-
----
-
-## 🎟 Order Tracking
-
-Track every order from **Pending → Preparing → Completed** using a digital token.
-
-![Order Tracking](screenshots/6-order-tracking.jpeg)
-
----
-
-## 👨‍🍳 Canteen Dashboard
-
-Canteen staff can manage orders through an easy-to-use dashboard with live status updates.
-
-![Canteen Dashboard](screenshots/7-canteen-dashboard.jpeg)
-
----
-
-## 👨‍💼 Admin Dashboard
-
-The admin dashboard provides centralized control over canteens, menus, payments, and analytics.
-
-![Admin Dashboard](screenshots/8-admin-dashboard.jpeg)
-
----
+<tr>
+<td align="center">
+<b>👨‍🍳 Canteen Dashboard</b><br>
+<img src="screenshots/7-canteen-dashboard.jpeg" width="400">
+</td>
+<td align="center">
+<b>👨‍💼 Admin Dashboard</b><br>
+<img src="screenshots/8-admin-dashboard.jpeg" width="400">
+</td>
+</tr>
+</table>
 
 # 🔄 Order Flow
 
