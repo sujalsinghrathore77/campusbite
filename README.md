@@ -85,50 +85,56 @@ The platform also provides dedicated dashboards for canteen staff and administra
 
 ## 📱 Application Preview
 
-<table>
+<table align="center">
+
 <tr>
 <td align="center">
-<b>🏠 Landing Page</b><br>
-<img src="screenshots/1-landing-page.jpeg" width="400">
+<b>🏠 Landing Page</b><br><br>
+<img src="screenshots/1-landing-page.jpeg" width="300" alt="Landing Page"/>
 </td>
+
 <td align="center">
-<b>🔐 Login / Register</b><br>
-<img src="screenshots/2-login.jpeg" width="400">
+<b>🔐 Login / Register</b><br><br>
+<img src="screenshots/2-login.jpeg" width="300" alt="Login"/>
 </td>
 </tr>
 
 <tr>
 <td align="center">
-<b>🍽️ Student Menu</b><br>
-<img src="screenshots/3-student-menu.jpeg" width="400">
+<b>🍽️ Student Menu</b><br><br>
+<img src="screenshots/3-student-menu.jpeg" width="300" alt="Student Menu"/>
 </td>
+
 <td align="center">
-<b>🛒 Cart & Checkout</b><br>
-<img src="screenshots/4-cart.jpeg" width="400">
+<b>🛒 Cart & Checkout</b><br><br>
+<img src="screenshots/4-cart.jpeg" width="300" alt="Cart"/>
 </td>
 </tr>
 
 <tr>
 <td align="center">
-<b>💳 Payment</b><br>
-<img src="screenshots/5-payment.jpeg" width="400">
+<b>💳 UPI Payment</b><br><br>
+<img src="screenshots/5-payment.jpeg" width="300" alt="Payment"/>
 </td>
+
 <td align="center">
-<b>🎟️ Order Tracking</b><br>
-<img src="screenshots/6-order-tracking.jpeg" width="400">
+<b>🎟️ Order Tracking</b><br><br>
+<img src="screenshots/6-order-tracking.jpeg" width="300" alt="Order Tracking"/>
 </td>
 </tr>
 
 <tr>
 <td align="center">
-<b>👨‍🍳 Canteen Dashboard</b><br>
-<img src="screenshots/7-canteen-dashboard.jpeg" width="400">
+<b>👨‍🍳 Canteen Dashboard</b><br><br>
+<img src="screenshots/7-canteen-dashboard.jpeg" width="300" alt="Canteen Dashboard"/>
 </td>
+
 <td align="center">
-<b>👨‍💼 Admin Dashboard</b><br>
-<img src="screenshots/8-admin-dashboard.jpeg" width="400">
+<b>👨‍💼 Admin Dashboard</b><br><br>
+<img src="screenshots/8-admin-dashboard.jpeg" width="300" alt="Admin Dashboard"/>
 </td>
 </tr>
+
 </table>
 
 # 🔄 Order Flow
